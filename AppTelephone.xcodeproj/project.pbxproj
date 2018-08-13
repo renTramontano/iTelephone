@@ -77,7 +77,36 @@
 			isa = PBXGroup;
 			children = (
 				D4C92414210782340068C41A /* AppDelegate.swift */,
+				F9A336DF21222BF500780F0D /* Model */,
+				F9A336E021222C1300780F0D /* View */,
+				F9A336E121222C1E00780F0D /* Controller */,
+				D4C9241E210782360068C41A /* Assets.xcassets */,
+				D4C92423210782360068C41A /* Info.plist */,
+				D4C9241B210782340068C41A /* AppTelephone.xcdatamodeld */,
+			);
+			path = AppTelephone;
+			sourceTree = "<group>";
+		};
+		F9A336DF21222BF500780F0D /* Model */ = {
+			isa = PBXGroup;
+			children = (
 				D4C92429210787A40068C41A /* Contact.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F9A336E021222C1300780F0D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D4C92418210782340068C41A /* Main.storyboard */,
+				D4C92420210782360068C41A /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F9A336E121222C1E00780F0D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
 				D4C92416210782340068C41A /* FavouritesTableViewController.swift */,
 				D4C924352107B5BB0068C41A /* DetailFavouritesTableViewController.swift */,
 				D4512382210E1B8D006F575C /* DetailTableViewController.swift */,
@@ -88,13 +117,8 @@
 				D406A3F72108C467003E77B5 /* ConTableViewController.swift */,
 				D406A3F92108C8C0003E77B5 /* KeypadViewController.swift */,
 				D406A3FB2108CB06003E77B5 /* SecretaryViewController.swift */,
-				D4C9241E210782360068C41A /* Assets.xcassets */,
-				D4C92418210782340068C41A /* Main.storyboard */,
-				D4C92420210782360068C41A /* LaunchScreen.storyboard */,
-				D4C92423210782360068C41A /* Info.plist */,
-				D4C9241B210782340068C41A /* AppTelephone.xcdatamodeld */,
 			);
-			path = AppTelephone;
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
