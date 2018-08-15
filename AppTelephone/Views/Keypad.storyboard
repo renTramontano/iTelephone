@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="vSi-Y2-aJU">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SanFranciscoDisplay-Medium.otf">
+            <string>SanFranciscoDisplay-Medium</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Keypad-->
+        <scene sceneID="YPM-lP-LTk">
+            <objects>
+                <viewController id="vSi-Y2-aJU" customClass="KeypadViewController" customModule="AppTelephone" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="VcS-cD-NKx">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" tag="8" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t6k-nc-K3G" userLabel="8">
+                                <rect key="frame" x="152" y="321" width="70" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="8" image="otto"/>
+                                <connections>
+                                    <action selector="insertNumber:" destination="vSi-Y2-aJU" eventType="touchUpInside" id="Zwd-qj-QXq"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bqa-Tr-x2B">
+                                <rect key="frame" x="152" y="411" width="70" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="0" image="zero"/>
+                                <connections>
+                                    <action selector="insertNumber:" destination="vSi-Y2-aJU" eventType="touchUpInside" id="9uF-xv-PyF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KnR-lr-vch">
+                                <rect key="frame" x="152" y="501" width="70" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" image="phoneButton"/>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ooi-Dg-UtQ">
+                                <rect key="frame" x="152" y="141" width="70" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="2" image="due"/>
+                                <connections>
+                                    <action selector="insertNumber:" destination="vSi-Y2-aJU" eventType="touchUpInside" id="sjR-Bt-At9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lxn-gK-Taz">
+                                <rect key="frame" x="152" y="231" width="70" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="5" image="cinque"/>
+                                <connections>
+                                    <action selector="insertNumber:" destination="vSi-Y2-aJU" eventType="touchUpInside" id="YqA-AW-sIW"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="19U-1R-Xbp">
+                                <rect key="frame" x="54" y="141" width="70" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="1" image="uno"/>
+                                <connections>
+                                    <action selector="insertNumber:" destination="vSi-Y2-aJU" eventType="touchUpInside" id="aOd-J6-blc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YXv-1P-uF2">
+                                <rect key="frame" x="54" y="231" width="70" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="4" image="quattro"/>
+                                <connections>
+                                    <action selector="insertNumber:" destination="vSi-Y2-aJU" eventType="touchUpInside" id="Rjf-gy-s64"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="7" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g9Q-DV-HXs">
+                                <rect key="frame" x="54" y="321" width="70" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="7" image="sette"/>
+                                <connections>
+                                    <action selector="insertNumber:" destination="vSi-Y2-aJU" eventType="touchUpInside" id="xtk-ZK-s2x"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="10" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fRh-Mb-ZIE">
+                                <rect key="frame" x="54" y="411" width="70" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="*" image="asterisco"/>
+                                <connections>
+                                    <action selector="insertNumber:" destination="vSi-Y2-aJU" eventType="touchUpInside" id="KWe-iI-P0W"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AFu-L2-gNA">
+                                <rect key="frame" x="250" y="141" width="70" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="3" image="tre"/>
+                                <connections>
+                                    <action selector="insertNumber:" destination="vSi-Y2-aJU" eventType="touchUpInside" id="8bb-Bq-DQ0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="6" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5AK-jd-pTJ">
+                                <rect key="frame" x="250" y="231" width="70" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="6" image="sei"/>
+                                <connections>
+                                    <action selector="insertNumber:" destination="vSi-Y2-aJU" eventType="touchUpInside" id="Utm-Rw-wKv"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="9" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ype-Fe-gP0">
+                                <rect key="frame" x="250" y="321" width="70" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="9" image="nove"/>
+                                <connections>
+                                    <action selector="insertNumber:" destination="vSi-Y2-aJU" eventType="touchUpInside" id="JBN-JC-qQd"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="number" textAlignment="center" lineBreakMode="headTruncation" baselineAdjustment="alignBaselines" minimumFontSize="30" translatesAutoresizingMaskIntoConstraints="NO" id="25M-XX-5Nr">
+                                <rect key="frame" x="16" y="36" width="343" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="SanFranciscoDisplay-Medium" family="San Francisco Display" pointSize="35"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TSx-iQ-0bb">
+                                <rect key="frame" x="145" y="86" width="85" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Add number"/>
+                                <connections>
+                                    <action selector="addNumber:" destination="vSi-Y2-aJU" eventType="touchUpInside" id="rs4-bH-uro"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="center" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="At2-wN-bHA">
+                                <rect key="frame" x="250" y="501" width="70" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="deleteNumber"/>
+                                <connections>
+                                    <action selector="deleteNumber:" destination="vSi-Y2-aJU" eventType="touchUpInside" id="zhV-v6-WwY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="11" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z3R-H9-clJ">
+                                <rect key="frame" x="250" y="411" width="70" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="#" image="cancelletto"/>
+                                <connections>
+                                    <action selector="insertNumber:" destination="vSi-Y2-aJU" eventType="touchUpInside" id="ytz-QA-x95"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="ZlA-MQ-HEo"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Keypad" image="keypadIcon" id="s5f-ay-HHq"/>
+                    <connections>
+                        <outlet property="addNumberButton" destination="TSx-iQ-0bb" id="MP0-4s-cqC"/>
+                        <outlet property="deleteNumberButton" destination="At2-wN-bHA" id="9Rk-fc-DAT"/>
+                        <outlet property="number" destination="25M-XX-5Nr" id="OHM-ZP-8e2"/>
+                        <outletCollection property="buttons" destination="KnR-lr-vch" collectionClass="NSMutableArray" id="G1W-Od-iKP"/>
+                        <outletCollection property="buttons" destination="fRh-Mb-ZIE" collectionClass="NSMutableArray" id="F3d-R8-1mb"/>
+                        <outletCollection property="buttons" destination="bqa-Tr-x2B" collectionClass="NSMutableArray" id="PHe-ps-gQe"/>
+                        <outletCollection property="buttons" destination="Z3R-H9-clJ" collectionClass="NSMutableArray" id="kc0-t5-HR3"/>
+                        <outletCollection property="buttons" destination="g9Q-DV-HXs" collectionClass="NSMutableArray" id="REc-88-9wE"/>
+                        <outletCollection property="buttons" destination="t6k-nc-K3G" collectionClass="NSMutableArray" id="Jfl-9F-NwV"/>
+                        <outletCollection property="buttons" destination="Ype-Fe-gP0" collectionClass="NSMutableArray" id="iiD-N7-ANC"/>
+                        <outletCollection property="buttons" destination="YXv-1P-uF2" collectionClass="NSMutableArray" id="TZm-Pr-8Ym"/>
+                        <outletCollection property="buttons" destination="lxn-gK-Taz" collectionClass="NSMutableArray" id="c6j-2a-naD"/>
+                        <outletCollection property="buttons" destination="5AK-jd-pTJ" collectionClass="NSMutableArray" id="zhJ-7Z-zbF"/>
+                        <outletCollection property="buttons" destination="19U-1R-Xbp" collectionClass="NSMutableArray" id="mO1-IW-4o0"/>
+                        <outletCollection property="buttons" destination="Ooi-Dg-UtQ" collectionClass="NSMutableArray" id="gt0-Tu-eC1"/>
+                        <outletCollection property="buttons" destination="AFu-L2-gNA" collectionClass="NSMutableArray" id="hIC-vk-HB4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lNg-hd-S5O" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1893.5999999999999" y="1858.920539730135"/>
+        </scene>
+        <!--New Contact View Controller-->
+        <scene sceneID="9t7-Fc-Tys">
+            <objects>
+                <viewController storyboardIdentifier="NewContactID" id="3cx-57-lAP" customClass="NewContactViewController" customModule="AppTelephone" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="cLp-Z9-JNH">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="U4o-sc-xPR">
+                                <rect key="frame" x="29" y="97" width="97" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Surname" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2Az-tC-BLv">
+                                <rect key="frame" x="29" y="135" width="97" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textField>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bHY-5c-lCS">
+                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="barTintColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <items>
+                                    <navigationItem title="New contact" id="zQ5-TE-dNV">
+                                        <barButtonItem key="leftBarButtonItem" title="Cancel" id="iUZ-bm-tMN">
+                                            <connections>
+                                                <action selector="cancelAction:" destination="3cx-57-lAP" id="f1D-on-gsY"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" title="Done" style="done" id="YX0-Z6-ZyW">
+                                            <connections>
+                                                <action selector="doneAction:" destination="3cx-57-lAP" id="mof-d7-WHP"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Mc-cZ-QDa">
+                                <rect key="frame" x="239" y="114" width="70" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="add photo"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="oGI-F8-6RU"/>
+                    </view>
+                    <connections>
+                        <outlet property="name" destination="U4o-sc-xPR" id="oc5-KI-fhQ"/>
+                        <outlet property="surname" destination="2Az-tC-BLv" id="Iss-3K-r2y"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ljf-gZ-JMx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2682" y="1859"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="asterisco" width="70" height="70"/>
+        <image name="cancelletto" width="70" height="70"/>
+        <image name="cinque" width="70" height="70"/>
+        <image name="deleteNumber" width="29" height="25"/>
+        <image name="due" width="70" height="70"/>
+        <image name="keypadIcon" width="27" height="27"/>
+        <image name="nove" width="70" height="70"/>
+        <image name="otto" width="70" height="70"/>
+        <image name="phoneButton" width="70" height="70"/>
+        <image name="quattro" width="70" height="70"/>
+        <image name="sei" width="70" height="70"/>
+        <image name="sette" width="70" height="70"/>
+        <image name="tre" width="70" height="70"/>
+        <image name="uno" width="70" height="70"/>
+        <image name="zero" width="70" height="70"/>
+    </resources>
+</document>

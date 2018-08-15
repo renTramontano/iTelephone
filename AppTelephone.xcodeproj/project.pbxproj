@@ -11,14 +11,27 @@
 		D406A3F82108C467003E77B5 /* ConTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D406A3F72108C467003E77B5 /* ConTableViewController.swift */; };
 		D406A3FA2108C8C0003E77B5 /* KeypadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D406A3F92108C8C0003E77B5 /* KeypadViewController.swift */; };
 		D406A3FC2108CB06003E77B5 /* SecretaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D406A3FB2108CB06003E77B5 /* SecretaryViewController.swift */; };
-		D4512383210E1B8D006F575C /* DetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4512382210E1B8D006F575C /* DetailTableViewController.swift */; };
+		D45E61E92123508700242869 /* Call+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45E61E72123508700242869 /* Call+CoreDataClass.swift */; };
+		D45E61EA2123508700242869 /* Call+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45E61E82123508700242869 /* Call+CoreDataProperties.swift */; };
+		D47CFEB02122D755003F1381 /* SanFranciscoDisplay-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = D47CFEAE2122D74E003F1381 /* SanFranciscoDisplay-Bold.otf */; };
+		D47CFEB22122D755003F1381 /* SanFranciscoDisplay-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = D47CFEA02122D73F003F1381 /* SanFranciscoDisplay-Light.otf */; };
+		D47CFEB32122D755003F1381 /* SanFranciscoDisplay-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = D47CFE9D2122D73A003F1381 /* SanFranciscoDisplay-Medium.otf */; };
+		D47CFEB42122D755003F1381 /* SanFranciscoDisplay-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = D47CFEA62122D74B003F1381 /* SanFranciscoDisplay-Regular.otf */; };
+		D47CFECA2122DCB0003F1381 /* Contact+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47CFEC82122DCB0003F1381 /* Contact+CoreDataClass.swift */; };
+		D47CFECB2122DCB0003F1381 /* Contact+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47CFEC92122DCB0003F1381 /* Contact+CoreDataProperties.swift */; };
+		D47CFED22122F810003F1381 /* Keypad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D47CFED12122F810003F1381 /* Keypad.storyboard */; };
+		D47CFED42122F8A9003F1381 /* Secretary.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D47CFED32122F8A9003F1381 /* Secretary.storyboard */; };
+		D47CFED62122F918003F1381 /* Contacts.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D47CFED52122F918003F1381 /* Contacts.storyboard */; };
+		D47CFED82122F97F003F1381 /* Recents.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D47CFED72122F97F003F1381 /* Recents.storyboard */; };
+		D47CFEDA2122F9CF003F1381 /* Favorites.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D47CFED92122F9CF003F1381 /* Favorites.storyboard */; };
+		D47CFEDC21230331003F1381 /* NewContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47CFEDB21230331003F1381 /* NewContactViewController.swift */; };
+		D4AC7C2721242E5700D9546F /* DetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AC7C2621242E5700D9546F /* DetailTableViewController.swift */; };
 		D4C92415210782340068C41A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C92414210782340068C41A /* AppDelegate.swift */; };
 		D4C92417210782340068C41A /* FavouritesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C92416210782340068C41A /* FavouritesTableViewController.swift */; };
 		D4C9241A210782340068C41A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4C92418210782340068C41A /* Main.storyboard */; };
 		D4C9241D210782340068C41A /* AppTelephone.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D4C9241B210782340068C41A /* AppTelephone.xcdatamodeld */; };
 		D4C9241F210782360068C41A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4C9241E210782360068C41A /* Assets.xcassets */; };
 		D4C92422210782360068C41A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4C92420210782360068C41A /* LaunchScreen.storyboard */; };
-		D4C9242A210787A40068C41A /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C92429210787A40068C41A /* Contact.swift */; };
 		D4C9242E21078EBF0068C41A /* ContactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C9242D21078EBF0068C41A /* ContactTableViewCell.swift */; };
 		D4C92430210796F40068C41A /* ContactsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C9242F210796F40068C41A /* ContactsTableViewController.swift */; };
 		D4C924342107B3E20068C41A /* RecentsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C924332107B3E20068C41A /* RecentsTableViewController.swift */; };
@@ -30,7 +43,21 @@
 		D406A3F72108C467003E77B5 /* ConTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConTableViewController.swift; sourceTree = "<group>"; };
 		D406A3F92108C8C0003E77B5 /* KeypadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeypadViewController.swift; sourceTree = "<group>"; };
 		D406A3FB2108CB06003E77B5 /* SecretaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecretaryViewController.swift; sourceTree = "<group>"; };
-		D4512382210E1B8D006F575C /* DetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTableViewController.swift; sourceTree = "<group>"; };
+		D45E61E72123508700242869 /* Call+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Call+CoreDataClass.swift"; sourceTree = "<group>"; };
+		D45E61E82123508700242869 /* Call+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Call+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		D47CFE9D2122D73A003F1381 /* SanFranciscoDisplay-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SanFranciscoDisplay-Medium.otf"; sourceTree = "<group>"; };
+		D47CFEA02122D73F003F1381 /* SanFranciscoDisplay-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SanFranciscoDisplay-Light.otf"; sourceTree = "<group>"; };
+		D47CFEA62122D74B003F1381 /* SanFranciscoDisplay-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SanFranciscoDisplay-Regular.otf"; sourceTree = "<group>"; };
+		D47CFEAE2122D74E003F1381 /* SanFranciscoDisplay-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SanFranciscoDisplay-Bold.otf"; sourceTree = "<group>"; };
+		D47CFEC82122DCB0003F1381 /* Contact+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Contact+CoreDataClass.swift"; sourceTree = "<group>"; };
+		D47CFEC92122DCB0003F1381 /* Contact+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Contact+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		D47CFED12122F810003F1381 /* Keypad.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Keypad.storyboard; sourceTree = "<group>"; };
+		D47CFED32122F8A9003F1381 /* Secretary.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Secretary.storyboard; sourceTree = "<group>"; };
+		D47CFED52122F918003F1381 /* Contacts.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Contacts.storyboard; sourceTree = "<group>"; };
+		D47CFED72122F97F003F1381 /* Recents.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Recents.storyboard; sourceTree = "<group>"; };
+		D47CFED92122F9CF003F1381 /* Favorites.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Favorites.storyboard; sourceTree = "<group>"; };
+		D47CFEDB21230331003F1381 /* NewContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewContactViewController.swift; sourceTree = "<group>"; };
+		D4AC7C2621242E5700D9546F /* DetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTableViewController.swift; sourceTree = "<group>"; };
 		D4C92411210782340068C41A /* AppTelephone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppTelephone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4C92414210782340068C41A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D4C92416210782340068C41A /* FavouritesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesTableViewController.swift; sourceTree = "<group>"; };
@@ -39,7 +66,6 @@
 		D4C9241E210782360068C41A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D4C92421210782360068C41A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D4C92423210782360068C41A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D4C92429210787A40068C41A /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
 		D4C9242D21078EBF0068C41A /* ContactTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactTableViewCell.swift; sourceTree = "<group>"; };
 		D4C9242F210796F40068C41A /* ContactsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsTableViewController.swift; sourceTree = "<group>"; };
 		D4C924332107B3E20068C41A /* RecentsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentsTableViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +83,99 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D45E61EB2123509100242869 /* Call Entity */ = {
+			isa = PBXGroup;
+			children = (
+				D45E61E72123508700242869 /* Call+CoreDataClass.swift */,
+				D45E61E82123508700242869 /* Call+CoreDataProperties.swift */,
+			);
+			path = "Call Entity";
+			sourceTree = "<group>";
+		};
+		D45E61EC212350A100242869 /* Contact Entity */ = {
+			isa = PBXGroup;
+			children = (
+				D47CFEC82122DCB0003F1381 /* Contact+CoreDataClass.swift */,
+				D47CFEC92122DCB0003F1381 /* Contact+CoreDataProperties.swift */,
+			);
+			path = "Contact Entity";
+			sourceTree = "<group>";
+		};
+		D47CFE992122D717003F1381 /* San Francisco Font */ = {
+			isa = PBXGroup;
+			children = (
+				D47CFEAE2122D74E003F1381 /* SanFranciscoDisplay-Bold.otf */,
+				D47CFEA02122D73F003F1381 /* SanFranciscoDisplay-Light.otf */,
+				D47CFE9D2122D73A003F1381 /* SanFranciscoDisplay-Medium.otf */,
+				D47CFEA62122D74B003F1381 /* SanFranciscoDisplay-Regular.otf */,
+			);
+			path = "San Francisco Font";
+			sourceTree = "<group>";
+		};
+		D47CFECC2122E4F9003F1381 /* Favourites */ = {
+			isa = PBXGroup;
+			children = (
+				D4C92416210782340068C41A /* FavouritesTableViewController.swift */,
+				D4AC7C2621242E5700D9546F /* DetailTableViewController.swift */,
+				D4C924352107B5BB0068C41A /* DetailFavouritesTableViewController.swift */,
+				D4C9242D21078EBF0068C41A /* ContactTableViewCell.swift */,
+				D4C9242F210796F40068C41A /* ContactsTableViewController.swift */,
+			);
+			path = Favourites;
+			sourceTree = "<group>";
+		};
+		D47CFECD2122E515003F1381 /* Recents */ = {
+			isa = PBXGroup;
+			children = (
+				D4C924332107B3E20068C41A /* RecentsTableViewController.swift */,
+				D406A3F52108BE19003E77B5 /* RecentsTableViewCell.swift */,
+			);
+			path = Recents;
+			sourceTree = "<group>";
+		};
+		D47CFECE2122E52E003F1381 /* Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				D406A3F72108C467003E77B5 /* ConTableViewController.swift */,
+			);
+			path = Contacts;
+			sourceTree = "<group>";
+		};
+		D47CFECF2122E53F003F1381 /* Keypad */ = {
+			isa = PBXGroup;
+			children = (
+				D406A3F92108C8C0003E77B5 /* KeypadViewController.swift */,
+				D47CFEDB21230331003F1381 /* NewContactViewController.swift */,
+			);
+			path = Keypad;
+			sourceTree = "<group>";
+		};
+		D47CFED02122E553003F1381 /* Secretary */ = {
+			isa = PBXGroup;
+			children = (
+				D406A3FB2108CB06003E77B5 /* SecretaryViewController.swift */,
+			);
+			path = Secretary;
+			sourceTree = "<group>";
+		};
+		D4C58DD32122391700ED29F9 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				D4C92414210782340068C41A /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		D4C58DD42122393600ED29F9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D47CFE992122D717003F1381 /* San Francisco Font */,
+				D4C9241E210782360068C41A /* Assets.xcassets */,
+				D4C92423210782360068C41A /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		D4C92408210782340068C41A = {
 			isa = PBXGroup;
 			children = (
@@ -76,49 +195,49 @@
 		D4C92413210782340068C41A /* AppTelephone */ = {
 			isa = PBXGroup;
 			children = (
-				D4C92414210782340068C41A /* AppDelegate.swift */,
-				F9A336DF21222BF500780F0D /* Model */,
-				F9A336E021222C1300780F0D /* View */,
-				F9A336E121222C1E00780F0D /* Controller */,
-				D4C9241E210782360068C41A /* Assets.xcassets */,
-				D4C92423210782360068C41A /* Info.plist */,
-				D4C9241B210782340068C41A /* AppTelephone.xcdatamodeld */,
+				D4C58DD32122391700ED29F9 /* AppDelegate */,
+				F9A336DF21222BF500780F0D /* Models */,
+				F9A336E021222C1300780F0D /* Views */,
+				F9A336E121222C1E00780F0D /* Controllers */,
+				D4C58DD42122393600ED29F9 /* Resources */,
 			);
 			path = AppTelephone;
 			sourceTree = "<group>";
 		};
-		F9A336DF21222BF500780F0D /* Model */ = {
+		F9A336DF21222BF500780F0D /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				D4C92429210787A40068C41A /* Contact.swift */,
+				D4C9241B210782340068C41A /* AppTelephone.xcdatamodeld */,
+				D45E61EC212350A100242869 /* Contact Entity */,
+				D45E61EB2123509100242869 /* Call Entity */,
 			);
-			path = Model;
+			path = Models;
 			sourceTree = "<group>";
 		};
-		F9A336E021222C1300780F0D /* View */ = {
+		F9A336E021222C1300780F0D /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				D4C92418210782340068C41A /* Main.storyboard */,
 				D4C92420210782360068C41A /* LaunchScreen.storyboard */,
+				D4C92418210782340068C41A /* Main.storyboard */,
+				D47CFED92122F9CF003F1381 /* Favorites.storyboard */,
+				D47CFED72122F97F003F1381 /* Recents.storyboard */,
+				D47CFED52122F918003F1381 /* Contacts.storyboard */,
+				D47CFED12122F810003F1381 /* Keypad.storyboard */,
+				D47CFED32122F8A9003F1381 /* Secretary.storyboard */,
 			);
-			path = View;
+			path = Views;
 			sourceTree = "<group>";
 		};
-		F9A336E121222C1E00780F0D /* Controller */ = {
+		F9A336E121222C1E00780F0D /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				D4C92416210782340068C41A /* FavouritesTableViewController.swift */,
-				D4C924352107B5BB0068C41A /* DetailFavouritesTableViewController.swift */,
-				D4512382210E1B8D006F575C /* DetailTableViewController.swift */,
-				D4C9242D21078EBF0068C41A /* ContactTableViewCell.swift */,
-				D4C9242F210796F40068C41A /* ContactsTableViewController.swift */,
-				D4C924332107B3E20068C41A /* RecentsTableViewController.swift */,
-				D406A3F52108BE19003E77B5 /* RecentsTableViewCell.swift */,
-				D406A3F72108C467003E77B5 /* ConTableViewController.swift */,
-				D406A3F92108C8C0003E77B5 /* KeypadViewController.swift */,
-				D406A3FB2108CB06003E77B5 /* SecretaryViewController.swift */,
+				D47CFECC2122E4F9003F1381 /* Favourites */,
+				D47CFECD2122E515003F1381 /* Recents */,
+				D47CFECE2122E52E003F1381 /* Contacts */,
+				D47CFECF2122E53F003F1381 /* Keypad */,
+				D47CFED02122E553003F1381 /* Secretary */,
 			);
-			path = Controller;
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,7 +300,16 @@
 			files = (
 				D4C92422210782360068C41A /* LaunchScreen.storyboard in Resources */,
 				D4C9241F210782360068C41A /* Assets.xcassets in Resources */,
+				D47CFEDA2122F9CF003F1381 /* Favorites.storyboard in Resources */,
+				D47CFEB32122D755003F1381 /* SanFranciscoDisplay-Medium.otf in Resources */,
 				D4C9241A210782340068C41A /* Main.storyboard in Resources */,
+				D47CFEB42122D755003F1381 /* SanFranciscoDisplay-Regular.otf in Resources */,
+				D47CFED42122F8A9003F1381 /* Secretary.storyboard in Resources */,
+				D47CFED82122F97F003F1381 /* Recents.storyboard in Resources */,
+				D47CFEB02122D755003F1381 /* SanFranciscoDisplay-Bold.otf in Resources */,
+				D47CFED62122F918003F1381 /* Contacts.storyboard in Resources */,
+				D47CFED22122F810003F1381 /* Keypad.storyboard in Resources */,
+				D47CFEB22122D755003F1381 /* SanFranciscoDisplay-Light.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,15 +321,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				D406A3F82108C467003E77B5 /* ConTableViewController.swift in Sources */,
+				D47CFEDC21230331003F1381 /* NewContactViewController.swift in Sources */,
 				D406A3FC2108CB06003E77B5 /* SecretaryViewController.swift in Sources */,
-				D4C9242A210787A40068C41A /* Contact.swift in Sources */,
+				D45E61E92123508700242869 /* Call+CoreDataClass.swift in Sources */,
+				D47CFECB2122DCB0003F1381 /* Contact+CoreDataProperties.swift in Sources */,
 				D4C9242E21078EBF0068C41A /* ContactTableViewCell.swift in Sources */,
 				D4C92430210796F40068C41A /* ContactsTableViewController.swift in Sources */,
+				D45E61EA2123508700242869 /* Call+CoreDataProperties.swift in Sources */,
 				D4C92417210782340068C41A /* FavouritesTableViewController.swift in Sources */,
 				D4C924342107B3E20068C41A /* RecentsTableViewController.swift in Sources */,
 				D406A3FA2108C8C0003E77B5 /* KeypadViewController.swift in Sources */,
+				D47CFECA2122DCB0003F1381 /* Contact+CoreDataClass.swift in Sources */,
+				D4AC7C2721242E5700D9546F /* DetailTableViewController.swift in Sources */,
 				D4C9241D210782340068C41A /* AppTelephone.xcdatamodeld in Sources */,
-				D4512383210E1B8D006F575C /* DetailTableViewController.swift in Sources */,
 				D406A3F62108BE19003E77B5 /* RecentsTableViewCell.swift in Sources */,
 				D4C924362107B5BB0068C41A /* DetailFavouritesTableViewController.swift in Sources */,
 				D4C92415210782340068C41A /* AppDelegate.swift in Sources */,
@@ -350,7 +482,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 74QV7363RY;
-				INFOPLIST_FILE = AppTelephone/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/AppTelephone/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -368,7 +500,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 74QV7363RY;
-				INFOPLIST_FILE = AppTelephone/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/AppTelephone/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="FAh-lt-8bn">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Tab Bar Controller-->
+        <scene sceneID="yk4-GI-PGb">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="FAh-lt-8bn" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="04H-WK-83C"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="AHJ-Yk-W0E">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="Ld7-cD-TgE" kind="relationship" relationship="viewControllers" id="Ju4-Da-yyZ"/>
+                        <segue destination="OaF-Zh-4GR" kind="relationship" relationship="viewControllers" id="ymq-C4-PVl"/>
+                        <segue destination="Dmc-Vu-97K" kind="relationship" relationship="viewControllers" id="fck-jn-8ZY"/>
+                        <segue destination="qJS-L3-CaU" kind="relationship" relationship="viewControllers" id="qwS-OK-4MV"/>
+                        <segue destination="fum-yF-zKE" kind="relationship" relationship="viewControllers" id="CLj-7q-kQV"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eXI-R7-Abq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1076" y="133.5832083958021"/>
+        </scene>
+        <!--Keypad-->
+        <scene sceneID="qbC-Ut-Uf9">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Keypad" id="qJS-L3-CaU" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Keypad" image="keypadIcon" id="Jhf-D2-mQK"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2cv-tC-nAo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1721" y="207"/>
+        </scene>
+        <!--Favorites-->
+        <scene sceneID="YH8-pm-DrC">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Favorites" id="Ld7-cD-TgE" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" systemItem="favorites" id="T4b-Uf-PiX"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1ip-rb-kk6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1730" y="-41"/>
+        </scene>
+        <!--Recents-->
+        <scene sceneID="Ktt-Zp-nad">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Recents" id="OaF-Zh-4GR" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" systemItem="recents" id="tlg-0O-PTo"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gvx-5o-6T9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1724" y="58"/>
+        </scene>
+        <!--Contacts-->
+        <scene sceneID="NZ4-j3-UFB">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Contacts" id="Dmc-Vu-97K" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" systemItem="contacts" id="Xg5-48-nIU"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dLm-nw-amc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1730" y="133"/>
+        </scene>
+        <!--Secretary-->
+        <scene sceneID="JSc-s1-q8j">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Secretary" id="fum-yF-zKE" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Secretary" image="segretaryButton" id="vO1-0F-6ye"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gXQ-gN-Siy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1733" y="290"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="keypadIcon" width="27" height="27"/>
+        <image name="segretaryButton" width="32" height="14"/>
+    </resources>
+</document>
